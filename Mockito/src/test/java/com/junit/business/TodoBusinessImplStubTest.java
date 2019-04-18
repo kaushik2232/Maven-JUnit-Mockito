@@ -17,7 +17,7 @@ public class TodoBusinessImplStubTest {
 		ToDoTaskService todoServiceStub = new ToDoTaskServiceStub();
 		TodoBusinessImpl todoImpl = new TodoBusinessImpl(todoServiceStub);
 		List<String> todos = todoImpl.retrieveTodosRelatedToSpring("Sample");
-		assertEquals(2, todos.size());
+		assertEquals(4, todos.size());
 		
 	}
 

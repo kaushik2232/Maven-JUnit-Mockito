@@ -6,7 +6,7 @@ import java.util.List;
 public class ToDoTaskServiceStub implements ToDoTaskService {
 	
 	public List<String> retrieveTodos(String user){
-		return Arrays.asList("Spring MVC", "Spring hibernate", "MyBattis");
+		return Arrays.asList("spring MVC", "spring hibernate", "spring");
 	}
 
 }
